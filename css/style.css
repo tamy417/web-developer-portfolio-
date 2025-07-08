@@ -1,0 +1,70 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 50px 200px;
+
+}
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.nav-titile{
+    font-weight: 800;
+    font-size: 45px;
+}
+.text-primary{
+    color: #FD6E0A
+}
+nav ul li{
+    list-style: none;
+   
+}
+nav li a{
+    text-decoration: none;
+    color: #353333;
+    font-size: 20px;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+   
+}
+.btn-primary{
+    background-color:#FD6E0A;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+     
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-profile-pic{
+    width: 580px;
+}
